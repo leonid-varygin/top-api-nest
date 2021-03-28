@@ -1,7 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { ReviewService } from './review.service';
 import { getModelToken } from "nestjs-typegoose";
-import { exec } from "child_process";
 import { Types } from "mongoose";
 
 describe('ReviewService', () => {
