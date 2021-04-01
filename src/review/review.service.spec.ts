@@ -16,7 +16,9 @@ describe('ReviewService', () => {
       providers: [ReviewService, {useFactory: reviewRepositoryFactory, provide: getModelToken('ReviewModel')}],
     }).compile();
 
-    service = module.get<ReviewService>(ReviewService);
+
+
+    // service = module.get<ReviewService>(ReviewService);
   });
 
   it('should be defined', () => {

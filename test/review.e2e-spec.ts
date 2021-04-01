@@ -27,6 +27,8 @@ describe("AppController (e2e)", () => {
 
     app = moduleFixture.createNestApplication();
     await app.init();
+
+    // const res = await request()
   });
 
   it("/review/create (POST) - success", async (done) => {
